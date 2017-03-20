@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c97a1f3df1b91ae996d0b421177cc6ea",
+    "content-hash": "66215a1891c3877ed6e6158ca61a063c",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1373,33 +1373,35 @@
         },
         {
             "name": "sensio/generator-bundle",
-            "version": "v3.0.0",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "f5f60fc84fdef91333c67f29b00a271cfbcf1ccb"
+                "reference": "37f9f4e165b033fb76cc2320838321cc57140e65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/f5f60fc84fdef91333c67f29b00a271cfbcf1ccb",
-                "reference": "f5f60fc84fdef91333c67f29b00a271cfbcf1ccb",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/37f9f4e165b033fb76cc2320838321cc57140e65",
+                "reference": "37f9f4e165b033fb76cc2320838321cc57140e65",
                 "shasum": ""
             },
             "require": {
                 "symfony/console": "~2.7|~3.0",
                 "symfony/framework-bundle": "~2.7|~3.0",
                 "symfony/process": "~2.7|~3.0",
-                "symfony/yaml": "~2.7|~3.0"
+                "symfony/yaml": "~2.7|~3.0",
+                "twig/twig": "^1.28.2|^2.0"
             },
             "require-dev": {
                 "doctrine/orm": "~2.4",
                 "symfony/doctrine-bridge": "~2.7|~3.0",
-                "twig/twig": "~1.18"
+                "symfony/filesystem": "~2.7|~3.0",
+                "symfony/phpunit-bridge": "^3.3"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-master": "3.1.x-dev"
                 }
             },
             "autoload": {
@@ -1421,7 +1423,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2015-11-10T13:25:32+00:00"
+            "time": "2017-03-15T01:02:10+00:00"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -1593,25 +1595,25 @@
         },
         {
             "name": "symfony/monolog-bundle",
-            "version": "v2.12.1",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/monolog-bundle.git",
-                "reference": "b0146bdca7ba2a65f3bbe7010423c7393b29ec3f"
+                "reference": "ebce76a39a65495a66c34eb1574cc4b9e35a4e64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/b0146bdca7ba2a65f3bbe7010423c7393b29ec3f",
-                "reference": "b0146bdca7ba2a65f3bbe7010423c7393b29ec3f",
+                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/ebce76a39a65495a66c34eb1574cc4b9e35a4e64",
+                "reference": "ebce76a39a65495a66c34eb1574cc4b9e35a4e64",
                 "shasum": ""
             },
             "require": {
-                "monolog/monolog": "~1.18",
+                "monolog/monolog": "~1.22",
                 "php": ">=5.3.2",
-                "symfony/config": "~2.3|~3.0",
-                "symfony/dependency-injection": "~2.3|~3.0",
-                "symfony/http-kernel": "~2.3|~3.0",
-                "symfony/monolog-bridge": "~2.3|~3.0"
+                "symfony/config": "~2.7|~3.0",
+                "symfony/dependency-injection": "~2.7|~3.0",
+                "symfony/http-kernel": "~2.7|~3.0",
+                "symfony/monolog-bridge": "~2.7|~3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8",
@@ -1621,7 +1623,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "3.x-dev"
                 }
             },
             "autoload": {
@@ -1649,7 +1651,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2017-01-02T19:04:26+00:00"
+            "time": "2017-01-10T20:01:51+00:00"
         },
         {
             "name": "symfony/polyfill-intl-icu",
