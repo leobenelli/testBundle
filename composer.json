@@ -2,7 +2,7 @@
     "name": "leobenelli/test-bundle",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "Test Project",
 	"authors": [
             {
                 "name": "Leonardo Benelli",
@@ -57,6 +57,7 @@
         },
         "branch-alias": {
             "master": "2.0-dev"
+            "master2": "2.2-dev"
         }
     }
 }
