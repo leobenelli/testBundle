@@ -56,7 +56,7 @@
             "file": "app/config/parameters.yml"
         },
         "branch-alias": {
-            "master": "2.0-dev"
+            "master": "2.0-dev",
             "master2": "2.2-dev"
         }
     }
