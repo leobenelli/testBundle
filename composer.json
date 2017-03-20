@@ -6,8 +6,7 @@
 	"authors": [
             {
                 "name": "Leonardo Benelli",
-                "email": "leobenelli@gmail.com",
-                "homepage": ""
+                "email": "leobenelli@gmail.com"
             }
         ],
             
@@ -16,18 +15,18 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "~2.4",
+        "symfony/symfony": "~3.2",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2",
         "twig/extensions": "~1.0",
         "symfony/assetic-bundle": "~2.3",
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
-        "sensio/distribution-bundle": "~2.3",
+        "sensio/distribution-bundle": "^5.0",
         "sensio/framework-extra-bundle": "~3.0",
-        "sensio/generator-bundle": "~2.3",
+        "sensio/generator-bundle": "3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "friendsofsymfony/user-bundle": "~1.3"
+        "friendsofsymfony/user-bundle": "~2.0@dev"
     },
     "minimum-stability": "stable",
     "scripts": {
